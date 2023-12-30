@@ -2,12 +2,15 @@ import { createStore } from "vuex";
 
 export default createStore({
    state: {
-      menuOpenOrClose: false,
-      imprintOpenOrClose: true,
+      title: "portfolio",
+      language: "en",
+      imprintOpenOrClose: false,
+      menuOpen: false,
    },
    mutations: {
       increment(state) {
          state.count++;
       },
    },
+
 });
