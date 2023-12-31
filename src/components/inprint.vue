@@ -10,7 +10,7 @@ const closeInprint = () => {
 </script>
 
 <template>
-   <div class="min-w-min h-full bg-tertiary text-white grid grid-cols-12 grid-rows-none" :class="{ hidden: !store.state.inprintOpen }">
+   <div id="inprintTop" class="min-w-min h-full bg-tertiary text-white grid grid-cols-12 grid-rows-none" :class="{ hidden: !store.state.inprintOpen }">
       <div
          class="cursor-pointer object-scale-down fill-white hover:fill-secondary col-start-11 col-end-13 row-start-1 row-end-1 h-16 flex flex-end items-center"
          @click="closeInprint()"
@@ -45,7 +45,7 @@ const closeInprint = () => {
          <h3>Postanschrift:</h3>
          <br />
          <h3>Kontakt:</h3>
-         <p>Telefon: +49 162 1531349<br />E-Mail: contact@dennisgeorgertel.com</p>
+         <p>Telefon: +49 162 1531349<br />E-Mail: contact@denniscodeworld.de</p>
          <br />
          <br />
          <br />
@@ -247,7 +247,7 @@ const closeInprint = () => {
          </p>
          <br />
          <h3>Empfänger eines Widerspruchs</h3>
-         <p>Dennis Georg Ertel <br />Telefon: +49 162 1531349 <br />E-Mail: contact@dennisgeorgertel.com</p>
+         <p>Dennis Georg Ertel <br />Telefon: +49 162 1531349 <br />E-Mail: contact@denniscodeworld.de</p>
          <br />
          <hr />
          <h2>Änderung unserer Datenschutzbestimmungen</h2>

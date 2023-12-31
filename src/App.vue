@@ -16,7 +16,7 @@ const components = Object.entries(files).reduce((components, [path, defineCompon
 <template>
    <div id="top"></div>
    <div :class="{ 'bg-tertiary': !store.state.menuOpen || !store.state.inprintOpen }" class="min-w-full gap-4">
-      <component :is="components.navbar" :class="{ 'h-screen': store.state.menuOpen || store.state.inprintOpen }" class="row-span-full z-10"></component>
+      <component :is="components.navbar" :class="{ 'h-screen': store.state.menuOpen, hidden: store.state.inprintOpen }" class="row-span-full z-10"></component>
       <div
          :class="{ hidden: store.state.menuOpen || store.state.inprintOpen }"
          class="grid grid-cols-12 mx-2 gap-6 overflow-x-hidden xl:w-1024 xl:mx-[calc((100vw-1024px)/2)]"

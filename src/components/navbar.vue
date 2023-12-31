@@ -26,7 +26,10 @@ const openCloseMenu = () => {
                <a class="cursor-pointer hover:text-secondary mx-2" href="#contact">Contact</a>
             </div>
             <div class="cursor-pointer flex justify-between items-center xl:hidden" @click="openCloseMenu()">
-               <div :class="{ hidden: store.state.menuOpen || store.state.inprintOpen }" class="cursor-pointer object-scale-down fill-white hover:fill-secondary">
+               <div
+                  :class="{ hidden: store.state.menuOpen || store.state.inprintOpen }"
+                  class="cursor-pointer object-scale-down fill-white hover:fill-secondary"
+               >
                   <svg
                      enable-background="new 0 0 91 91"
                      height="1rem"
@@ -49,7 +52,10 @@ const openCloseMenu = () => {
                   </svg>
                </div>
 
-               <div :class="{ hidden: !store.state.menuOpen || !store.state.inprintOpen}" class="cursor-pointer object-scale-down fill-white hover:fill-secondary">
+               <div
+                  :class="{ hidden: !store.state.menuOpen }"
+                  class="cursor-pointer object-scale-down fill-white hover:fill-secondary"
+               >
                   <svg
                      enable-background="new 0 0 24 24"
                      version="1.1"

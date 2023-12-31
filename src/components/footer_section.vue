@@ -12,8 +12,8 @@ const openInprint = () => {
 
 <template>
    <div class="grid grid-cols-12 row-span-full grid-rows-4 text-white text-center gap-4">
-      <div class="row-start-1 row-span-1 col-start-2 col-end-12 text-4xl font-bold flex justify-center xl:col-start-1 xl:col-end-3">
-         <div class="">Dennis</div>
+      <div class="row-start-1 row-span-1 col-start-2 col-end-12 font-bold flex justify-center xl:col-start-1 xl:col-end-3 xl:text-lg">
+         <div class="">Page created with VueJS.</div>
       </div>
       <div class="row-start-2 row-span-1 col-start-2 col-end-12 font-bold flex justify-center xl:col-start-5 xl:col-end-9 xl:row-start-1 xl:row-span-1">
          <div class="">@ Dennis Georg Ertel {{ currentYear }}</div>
@@ -65,14 +65,14 @@ const openInprint = () => {
                target="_blank"
                class="cursor-pointer object-scale-down rounded-full w-9 h-9 bg-white hover:bg-secondary flex justify-center items-center"
             >
-               <img class="rounded-full w-8 h-8" src="../../assets/img/get-in-it.png" alt="" />
+               <img class="rounded-full w-8 h-8" src="../assets/img/get-in-it.png" alt="" />
             </a>
          </div>
       </div>
 
       <div class="row-start-4 row-span-1 col-start-2 col-end-12 cursor-pointer hover:text-secondary xl:row-start-2 xl:row-span-1" @click="openInprint()">
          Imprint - Privacy Notice
-         {{ store.state.inprintOpen }}
+        <a href="#inprintTop">{{ store.state.inprintOpen }}</a> 
       </div>
    </div>
 </template>
