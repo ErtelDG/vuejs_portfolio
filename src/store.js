@@ -6,11 +6,11 @@ export default createStore({
       language: "en",
       imprintOpenOrClose: false,
       menuOpen: false,
+      inprintOpen: false,
    },
    mutations: {
       increment(state) {
          state.count++;
       },
    },
-
 });

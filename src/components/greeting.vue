@@ -3,18 +3,15 @@
 <template>
    <div class="grid grid-cols-12 text-white text-center gap-y-6 mb-8">
       <div class="col-start-1 col-end-13 flex justify-center">
-         <div class="flex flex-col-reverse justify-between">
-            <div class="w-full flex justify-start items-end text-3xl writingMode-b-rl rotate-180 mb-2">I</div>
-            <div class="w-full flex justify-end items-end text-3xl writingMode-b-rl rotate-180 mt-1">am</div>
-         </div>
          <div>
             <div class="text-3xl font-bold flex justify-between">
-               <div class="">Dennis</div>
-               <div class="">Georg</div>
+               <div class="">Dennis&nbsp;</div>
+               <div class="">Georg&nbsp;</div>
                <div class="">Ertel</div>
             </div>
-            <div class="text-2xsl xl:text-2xl flex justify-between text-secondary">
-               <div>FULL STACK&nbsp;</div>
+            <div class="text-2xsl xl:text-3xl flex justify-between text-secondary">
+               <div>FULL&nbsp;</div>
+               <div>STACK&nbsp;</div>
                <div>DEVELOPER</div>
             </div>
          </div>
@@ -25,4 +22,21 @@
    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.writingMode-b-rl {
+   writing-mode: tb-rl;
+}
+
+.text-xsl {
+   font-size: 1.3rem;
+}
+
+.fulljustify {
+   text-align: justify;
+}
+.fulljustify:after {
+   content: "";
+   display: inline-block;
+   width: 100%;
+}
+</style>

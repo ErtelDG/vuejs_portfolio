@@ -33,14 +33,14 @@ const personalThingEn = [
       </div>
       <div class="col-start-2 col-end-12 text-sm xl:text-base text-justify">{{ aboutMeText.en }}</div>
 
-      <div *ngFor="let thing of personalThingEn; let i = index" class="col-start-2 col-end-12 text-sm grid grid-cols-12 gap-4 xl:text-base">
-         <div *ngIf="i%2 == 0 " class="row-start-1 row-span-full col-start-1 col-end-3 flex justify-center items-center">
+      <div v-for="(thing, key) in personalThingEn" class="col-start-2 col-end-12 text-sm grid grid-cols-12 gap-4 xl:text-base">
+         <div v-if="key % 2 == 0" class="row-start-1 row-span-full col-start-1 col-end-3 flex justify-center items-center">
             <img src="../assets/img/lightbulb2.png" />
          </div>
-         <div *ngIf="i%2 != 0 " class="row-start-1 row-span-full col-start-1 col-end-3 flex justify-center items-center">
+         <div v-if="key % 2 != 0" class="row-start-1 row-span-full col-start-1 col-end-3 flex justify-center items-center">
             <img src="../assets/img/puzzle2.png" />
          </div>
-         <div class="row-start-1 row-span-full col-start-4 col-end-13 flex items-center">{{ personalThingEn }}</div>
+         <div class="row-start-1 row-span-full col-start-4 col-end-13 flex items-center">{{ thing }}</div>
       </div>
    </div>
 </template>

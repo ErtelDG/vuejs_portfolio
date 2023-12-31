@@ -6,7 +6,7 @@
     <div class="h-1 w-full bg-white rounded-xl"></div>
   </div>
   <div
-    class="col-start-4 col-end-10 md:col-start-5 md:col-end-9 flex justify-between items-center h-8 xl:col-start-3 xl:col-end-6">
+    class="col-start-4 col-end-10 md:col-start-5 md:col-end-9 flex justify-between items-center xl:col-start-3 xl:col-end-6 ">
     <a href="https://github.com/ErtelDG" target="_blank" class="cursor-pointer object-scale-down">
       <svg class="fill-white hover:fill-secondary" height="2.5rem" id="Layer_1" version="1.1" viewBox="0 0 512 512"
         width="2.5rem" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
     </a>
     <a href="https://www.get-in-it.de/profil/d3jH2Najiqhh8s063JFZa33zrL2QWUiJ" target="_blank"
       class="cursor-pointer object-scale-down rounded-full w-9 h-9 bg-white hover:bg-secondary flex justify-center items-center">
-      <img class="rounded-full w-8 h-8" src="../../assets/img/get-in-it.png" alt="">
+      <img class="rounded-full w-8 h-8" src="../assets/img/get-in-it.png" alt="">
     </a>
   </div>
   <a href="mailto:contact@dennisgeorgertel.com"
