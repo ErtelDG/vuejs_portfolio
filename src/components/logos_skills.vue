@@ -28,7 +28,7 @@ const iconsSkills = [
    <div class="grid grid-cols-12 gap-6 text-white">
       <div class="col-start-2 col-end-12 grid grid-cols-3 place-content-between place-items-center gap-4">
          <div v-for="icon of iconsSkills" class="gap-4 flex flex-col justify-between items-center my-4">
-            <img class="cursor-pointer xl:h-12 hover:animate-pulse" v-bind:src="'../src/assets/img/icons/' + icon + '.png'" />
+            <img class="cursor-pointer xl:h-12 hover:animate-pulse" v-bind:src="'../src/assets/img/' + icon + '.png'" />
 
             <div class="text-xs xl:text-base">{{ icon }}</div>
          </div>

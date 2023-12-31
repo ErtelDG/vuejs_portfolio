@@ -45,7 +45,7 @@ const projects = [
    <div class="col-span-full grid grid-cols-12 gap-6">
       <div v-for="project of projects" class="col-start-2 col-end-12 grid grid-cols-12 gap-4 mt-12">
          <div class="col-span-full flex justify-center">
-            <img :src="'../src/assets/img/imagesProjects/' + project.imageName + '.png'" :alt="project.imageName" />
+            <img :src="'./src/assets/img/imagesProjects/' + project.imageName + '.png'" :alt="project.imageName" />
          </div>
 
          <div class="col-span-full text-secondary text-center text-3xl font-bold mt-4 xl:text-4xl">{{ project.projectName }}</div>
