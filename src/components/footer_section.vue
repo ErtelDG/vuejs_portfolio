@@ -13,7 +13,7 @@ const openInprint = () => {
 <template>
    <div class="grid grid-cols-12 row-span-full grid-rows-4 text-white text-center gap-4">
       <div class="row-start-1 row-span-1 col-start-2 col-end-12 font-bold flex justify-center xl:col-start-1 xl:col-end-3 xl:text-lg">
-         <div class="">Page created with VueJS.</div>
+         <div class="">Page created with Vue.js</div>
       </div>
       <div class="row-start-2 row-span-1 col-start-2 col-end-12 font-bold flex justify-center xl:col-start-5 xl:col-end-9 xl:row-start-1 xl:row-span-1">
          <div class="">@ Dennis Georg Ertel {{ currentYear }}</div>
