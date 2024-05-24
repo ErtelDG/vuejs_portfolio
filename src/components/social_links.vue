@@ -5,7 +5,7 @@
       <div class="col-start-1 col-end-3 md:col-end-5 flex justify-start items-center xl:col-end-3 xl:col-start-2">
          <div class="h-1 w-full bg-white rounded-xl"></div>
       </div>
-      <div class="col-start-4 col-end-10 md:col-start-5 md:col-end-9 flex justify-between items-center xl:col-start-3 xl:col-end-6">
+      <div class="col-start-4 col-end-10 md:col-start-5 md:col-end-9 flex justify-start gap-x-2 items-center xl:col-start-3 xl:col-end-6">
          <a href="https://github.com/ErtelDG" target="_blank" class="cursor-pointer object-scale-down">
             <svg
                class="fill-white hover:fill-secondary"
@@ -38,20 +38,6 @@
                   d="M20 0C8.93333 0 0 8.93333 0 20C0 31.0667 8.93333 40 20 40C31.0667 40 40 31.0667 40 20C40 8.93333 31.0667 0 20 0ZM32 27.4667C32 28.1333 31.4667 28.6667 30.8 28.6667H9.33333C8.53333 28.6667 8 28 8 27.3333V14.4L20 20.6667L32 14.4V27.4667ZM32 12.9333L20 19.2L8 12.9333V12.6667C8 12 8.53333 11.3333 9.33333 11.3333H30.6667C31.4667 11.3333 32 12 32 12.6667V12.9333Z"
                />
             </svg>
-         </a>
-         <a href="https://www.linkedin.com/in/dennis-georg-ertel-71b000260" target="_blank" class="cursor-pointer object-scale-down">
-            <svg width="2.25rem" height="2.25rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" class="fill-white hover:fill-secondary">
-               <path
-                  d="M20 0C8.93333 0 0 8.93333 0 20C0 31.0667 8.93333 40 20 40C31.0667 40 40 31.0667 40 20C40 8.93333 31.0667 0 20 0ZM8.93333 7.33333C9.46667 6.93333 10.1333 6.66667 10.6667 6.66667C11.2 6.66667 12 6.93333 12.4 7.33333C12.8 7.86667 13.0667 8.4 13.0667 9.06667C13.0667 9.73333 12.8 10.4 12.2667 10.8C12 11.3333 11.3333 11.6 10.6667 11.6C10 11.6 9.33333 11.3333 8.93333 10.9333C8.53333 10.4 8.26667 9.73333 8.26667 9.06667C8.26667 8.4 8.53333 7.86667 8.93333 7.33333ZM13.2 28.8H8.26667V13.4667H13.2V28.8ZM31.7333 28.8H26.8V20.6667C26.8 15.7333 20.9333 16.1333 20.9333 20.6667V28.8H16.1333V13.4667H21.0667V15.4667C23.0667 11.7333 31.8667 11.4667 31.8667 19.0667V28.8H31.7333Z"
-               />
-            </svg>
-         </a>
-         <a
-            href="https://www.get-in-it.de/profil/d3jH2Najiqhh8s063JFZa33zrL2QWUiJ"
-            target="_blank"
-            class="cursor-pointer object-scale-down rounded-full w-9 h-9 bg-white hover:bg-secondary flex justify-center items-center"
-         >
-            <img class="rounded-full w-8 h-8" src="../assets/img/get-in-it.png" alt="" />
          </a>
       </div>
       <a href="mailto:contact@denniscodeworld.de" class="hidden col-start-8 col-end-13 text-lg xl:flex items-center text-white hover:text-secondary"
