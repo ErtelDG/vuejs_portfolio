@@ -2,22 +2,22 @@
 const language = "en";
 
 const aboutMeText = {
-   en: "As a Full Stack Developer, I have experience in developing user-friendly and responsive websites and applications. My specialization is in modern technologies such as HTML, CSS, JavaScript, TypeScript, Vue.js, and Angular, as well as a solid understanding of Responsive Design and design implementation. My knowledge of these technologies allows me to develop complete web applications that meet my users needs and provide a great user experience. I also leverage proven frameworks and libraries to increase development efficiency and achieve higher code quality. In addition to my expertise in front-end development, I have also gained experience in the backend using Python and Django as frameworks. I also have knowledge in architecting and scaling business applications to ensure they have high availability and performance. By continuously learning and keeping my knowledge up to date, I am constantly improving my skills. As part of a team, I enjoy working and contributing my ideas and proposed solutions to achieve the best possible result.",
-   de: "Als Full Stack Developer verfüge ich über Erfahrung in der Entwicklung von benutzerfreundlichen und ansprechenden Webseiten und Anwendungen. Meine Spezialisierung liegt auf modernen Technologien wie HTML, CSS, JavaScript, TypeScript, Vue.js und Angular, sowie einem soliden Verständnis von Responsive Design und Designumsetzung. Durch meine Kenntnisse in diesen Technologien kann ich vollständige Webanwendungen entwickeln, die den Anforderungen meiner Anwender entsprechen und eine großartige Benutzererfahrung bieten. Dabei setze ich auch auf bewährte Frameworks und Bibliotheken, um die Entwicklungseffizienz zu steigern und eine höhere Codequalität zu erreichen. Neben meiner Expertise in Frontend-Entwicklung habe ich auch Erfahrung im Backend mit Python und Django als Framework gesammelt. Zudem verfüge ich über Kenntnisse in der Architektur und Skalierung von Business-Anwendungen, um sicherzustellen, dass sie eine hohe Verfügbarkeit und Leistung aufweisen. Durch kontinuierliches Lernen und Aufrechterhaltung meiner Kenntnisse auf dem neuesten Stand der Technik, verbessere ich stetig meine Fähigkeiten. Im Team arbeite ich gerne und trage meine Ideen und Lösungsvorschläge bei, um ein bestmögliches Ergebnis zu erzielen.",
+   en: "I am comfortable working in self-organized and agile teams, adept at iteratively developing complex systems. My expertise spans the entire spectrum of software engineering, from initial conception to ongoing maintenance in production environments. With a focus on user-friendly and responsive web applications, I excel as a full-stack developer, leveraging modern technologies such as HTML, CSS, JavaScript, TypeScript, Python, and Go. Utilizing frameworks like Vue.js, Angular, and Django, alongside tools like Tailwind CSS, I enhance development efficiency and code quality. My proficiency extends to backend development, particularly with Go and Django, and implementing containerized software solutions. Passionate about continuous improvement, I champion practices like Continuous Integration and Delivery. My experience in cloud environments and distributed systems drives innovative solutions. Within teams, I thrive on exploring new technologies and refining our workflows.",
+   de: "Ich fühle mich in selbstorganisierten und agilen Teams wohl und bin versiert in der iterativen Entwicklung komplexer Systeme. Mein Fachwissen umfasst das gesamte Spektrum der Softwareentwicklung, von der ersten Konzeption bis zur laufenden Wartung in Produktionsumgebungen. Mit einem Schwerpunkt auf benutzerfreundlichen und reaktionsschnellen Webanwendungen bin ich ein hervorragender Full-Stack-Entwickler, der moderne Technologien wie HTML, CSS, JavaScript, TypeScript, Python und Go einsetzt. Durch den Einsatz von Frameworks wie Vue.js, Angular und Django sowie Tools wie Tailwind CSS verbessere ich die Entwicklungseffizienz und Codequalität. Meine Kenntnisse erstrecken sich auch auf die Backend-Entwicklung, insbesondere mit Go und Django, und die Implementierung von containerisierten Softwarelösungen. Als leidenschaftlicher Verfechter der kontinuierlichen Verbesserung setze ich mich für Praktiken wie Continuous Integration and Delivery ein. Meine Erfahrung mit Cloud-Umgebungen und verteilten Systemen treibt innovative Lösungen voran. Innerhalb von Teams erforsche ich gerne neue Technologien und verfeinere unsere Arbeitsabläufe.",
 };
 
 const personalThingEn = [
-   "Experience in developing web and software applications using technologies such as HTML, CSS, TypeScript, and Firebase.",
+   "Full-stack development: Extensive experience in the development of web applications both in the frontend and in the backend.",
 
-   "Knowledge of using frameworks and libraries such as Angular, VueJS, Material Design, Tailwind CSS and Bootstrap.",
+   "Expertise in modern technologies: Proficiency in HTML, CSS, JavaScript, TypeScript, Python and Go to develop high-quality applications.",
 
-   "Good knowledge of using version control systems such as Git (GitHub).",
+   "Use of proven frameworks and libraries: Use of tools such as Vue.js, Angular, Django and TailwindCSS to increase development efficiency and quality.",
 
-   "Experience using testing and debugging tools to ensure code quality and integrity.",
+   "Continuous improvement and maintenance: Responsibility for the continuous optimization and maintenance of applications in the production environment.",
 
-   "Ability to analyze and improve processes and procedures to increase efficiency and performance",
+   "CI/CD: Experience in implementing and utilizing Continuous Integration and Continuous Delivery to improve workflows.",
 
-   "Good communication and negotiation skills to successfully work with different stakeholders and solve problems",
+   "Cloud expertise and distributed systems: Ability to work in cloud environments and with distributed systems to drive innovative solutions and improve scalability.",
 ];
 </script>
 

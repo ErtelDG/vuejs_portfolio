@@ -1,5 +1,5 @@
 <script setup>
-const textMySkills = "I have grown my frontend development skills that have allowed me to crate different real projects.";
+const textMySkills = "Thanks to my skills in both the front-end and back-end areas, I am able to successfully realize a large number of challenging projects.";
 </script>
 
 <template>

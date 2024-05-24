@@ -1,4 +1,6 @@
 <script setup>
+import { VueElement } from "vue";
+
 const projects = [
    {
       imageName: "Pokedex",
@@ -6,7 +8,7 @@ const projects = [
       tools: "HTML",
       toolsOther: ["Vue.js", "TypeScript", "Tailwind", "Rest-API"],
       description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
-      linkLiveTest: "https://dennisgeorgertel.com/projects/pokedex/index.html",
+      linkLiveTest: "https://pokedex.denniscodeworld.de/",
       linkGitHub: "https://github.com/ErtelDG/pokedex",
    },
    {
@@ -16,18 +18,20 @@ const projects = [
       toolsOther: ["TypeScript", "Tailwind"],
       description:
          "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale",
-      linkLiveTest: "https://dennisgeorgertel.com/projects/sharkie/index.html",
+      linkLiveTest: "https://sharkie.denniscodeworld.de/",
       linkGitHub: "https://github.com/ErtelDG/sharkie",
    },
 
    {
       imageName: "Join",
       projectName: "Join",
-      tools: "CSS",
-      toolsOther: ["TypeScript", "HTML"],
-      description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories. ",
-      linkLiveTest: "https://dennisgeorgertel.com/projects/join/loginLogout/index.html",
-      linkGitHub: "https://github.com/ErtelDG/Join",
+      tools: "Backend - Go, Frontend - Vue.js",
+      toolsOther: ["Tailwind CSS", "API"],
+      description:
+         "Task manager inspired by the Kanban system. Create, modify, delete and organize tasks, assign users and categories. Create and remove users. Frontend and backend are isolated systems. Vue.js is used for the frontend and Golang (Go) is used on the server side. Communication between the two is via an API interface.",
+      linkLiveTest: "https://join.denniscodeworld.de/",
+      linkGitHub: "https://github.com/ErtelDG/vite_kanban",
+      linkGitHub2: "https://github.com/ErtelDG/minibackendgo",
    },
    {
       imageName: "EL_Pollo_Loco",
@@ -35,7 +39,7 @@ const projects = [
       tools: "HTML",
       toolsOther: ["TypeScript", "Tailwind"],
       description: "And another jump and run game based on an object-oriented approach. Help Pepe find coins and bottles to fight the final boss.",
-      linkLiveTest: "https://dennisgeorgertel.com/projects/el_pollo_loco/index.html",
+      linkLiveTest: "https://el-pollo-loco.denniscodeworld.de/",
       linkGitHub: "https://github.com/ErtelDG/el_pollo-loco",
    },
 ];
@@ -59,18 +63,30 @@ const projects = [
 
          <div class="col-span-full flex justify-around items-center py-4">
             <a
-               href="{{project.linkLiveTest}}"
+               :href="project.linkLiveTest"
                target="_blank"
-               class="text-sm text-center text-white font-normal bg-secondary border-secondary hover:bg-white hover:text-black hover:font-normal hover:border-primary border-2 w-2/5 px-4 py-2 cursor-pointer rounded-lg xl:text-base"
+               class="text-sm text-center text-white font-normal bg-secondary border-secondary hover:bg-white hover:text-black hover:font-normal hover:border-primary border-2 w-[30%] px-4 py-2 cursor-pointer rounded-lg xl:text-base"
             >
-               <div>Live test</div>
+               <div v-if="!project.linkGitHub2">Live test</div>
+               <div v-if="project.linkGitHub2">Live</div>
+               <div v-if="project.linkGitHub2">test</div>
             </a>
             <a
-               href="{{project.linkGitHub}}"
+               :href="project.linkGitHub"
                target="_blank"
-               class="text-sm text-center border-white bg-white text-black border-2 w-2/5 px-4 py-2 cursor-pointer rounded-lg hover:bg-secondary hover:border-secondary hover:text-white xl:text-base"
+               class="text-sm text-center border-white bg-white text-black border-2 w-[30%] px-4 py-2 cursor-pointer rounded-lg hover:bg-secondary hover:border-secondary hover:text-white xl:text-base"
+            >
+               <div v-if="!project.linkGitHub2">Github</div>
+               <div v-if="project.linkGitHub2">Github</div>
+               <div v-if="project.linkGitHub2">Frontend</div></a
+            ><a
+               v-if="project.linkGitHub2"
+               :href="project.linkGitHub2"
+               target="_blank"
+               class="text-sm text-center border-white bg-white text-black border-2 w-[30%] px-4 py-2 cursor-pointer rounded-lg hover:bg-secondary hover:border-secondary hover:text-white xl:text-base"
             >
                <div>Github</div>
+               <div>Backend</div>
             </a>
          </div>
       </div>
