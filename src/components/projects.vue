@@ -3,25 +3,16 @@ import { VueElement } from "vue";
 
 const projects = [
    {
-      imageName: "Pokedex",
-      projectName: "Pokedex",
-      tools: "HTML",
-      toolsOther: ["Vue.js", "TypeScript", "Tailwind", "Rest-API"],
-      description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
-      linkLiveTest: "https://pokedex.denniscodeworld.de/",
-      linkGitHub: "https://github.com/ErtelDG/pokedex",
-   },
-   {
-      imageName: "Sharkie",
-      projectName: "Sharkie",
-      tools: "HTML",
-      toolsOther: ["TypeScript", "Tailwind"],
+      imageName: "Economy_Dashboard_Germany",
+      projectName: "Economy Dashboard Germany",
+      tools: "Backend - Python, Frontend - Vue.js",
+      toolsOther: ["Vue.js","Python","Tailwind CSS","API"],
       description:
-         "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale",
-      linkLiveTest: "https://sharkie.denniscodeworld.de/",
-      linkGitHub: "https://github.com/ErtelDG/sharkie",
+         "The project is a dashboard that clearly displays over 130 German economic indicators and provides a quick overview of leading, coincident, and lagging indicators for assessing the economy.",
+      linkLiveTest: "https://economy-dashboard-germany.denniscodeworld.de/",
+      linkGitHub: "https://github.com/ErtelDG/dashboard-economy-incidence-germany",
+      linkGitHub2: "https://github.com/ErtelDG/ms_db_economy_incidence_germany_py",
    },
-
    {
       imageName: "Join",
       projectName: "Join",
@@ -34,13 +25,13 @@ const projects = [
       linkGitHub2: "https://github.com/ErtelDG/minibackendgo",
    },
    {
-      imageName: "EL_Pollo_Loco",
-      projectName: "EL Pollo Loco",
+      imageName: "Pokedex",
+      projectName: "Pokedex",
       tools: "HTML",
-      toolsOther: ["TypeScript", "Tailwind"],
-      description: "And another jump and run game based on an object-oriented approach. Help Pepe find coins and bottles to fight the final boss.",
-      linkLiveTest: "https://el-pollo-loco.denniscodeworld.de/",
-      linkGitHub: "https://github.com/ErtelDG/el_pollo-loco",
+      toolsOther: ["Vue.js", "TypeScript", "Tailwind", "Rest-API"],
+      description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
+      linkLiveTest: "https://pokedex.denniscodeworld.de/",
+      linkGitHub: "https://github.com/ErtelDG/pokedex",
    },
 ];
 
